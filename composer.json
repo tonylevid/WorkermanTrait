@@ -1,0 +1,28 @@
+{
+    "name": "tonylevid/workerman-trait",
+    "description": "Workerman mvc trait",
+    "keywords": ["workerman", "mvc", "multiple workers", "translation", "event-loop", "asynchronous"],
+    "homepage": "https://github.com/tonylevid/WorkermanTrait",
+    "type": "library",
+    "require": {
+        "workerman/workerman": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tonylevid",
+            "email": "tonylevid@gmail.com",
+            "homepage": "https://github.com/tonylevid",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "tonylevid@gmail.com",
+        "issues": "https://github.com/tonylevid/WorkermanTrait/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "WorkermanTrait\\": "src"
+        }
+    }
+}
